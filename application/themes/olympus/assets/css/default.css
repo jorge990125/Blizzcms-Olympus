@@ -1,0 +1,183 @@
+/**
+ * @Theme	WoW
+ * @Author	Impure (DZywolf)
+ * @Copyright	Copyright (c) 2018 Impure (https://impure.stream)
+ * @License	You must have a valid purchased only from ProjectCMS in order to legally use the theme for your project.
+ * @Version	1.0.0
+ */
+
+
+.uk-navbar-container .uk-button-default {background: url(../images/nav-button.jpg);background-size: auto 100%;border: 1px solid rgba(179,61,38,.5);color: #f8b700;box-shadow: none;transition: all ease .4s;font-family: "Futura Demi","Open Sans",Arial,Helvetica,sans-serif;}
+
+[class*="uk-dropdown-bottom"] {margin-top: 1px;}
+.uk-dropdown {background: rgba(21,13,6,.97);background: linear-gradient(to bottom,rgba(1,1,2,.97),rgba(21,13,6,.97));border: 1px solid #241505;border-top: none;border-bottom-color: #311c06;box-shadow: 0 0 10px rgba(0,0,0,.6);}
+.uk-dropdown-nav > li > a {color: #f8b700;}
+.uk-dropdown-nav > li.uk-active > a,.uk-dropdown-nav > li > a:focus,.uk-dropdown-nav > li > a:hover {color: #fff;}
+.uk-dropdown-nav .uk-nav-header {color: #fff;}
+.uk-dropdown-nav .uk-nav-divider {border-top:1px solid #352011;}
+.uk-dropdown-nav .uk-nav-sub a {color: #f8b700;}
+.uk-dropdown-nav .uk-nav-sub a:focus,.uk-dropdown-nav .uk-nav-sub a:hover {color: #fff;}
+.uk-offcanvas-bar{background: #211510;border-right: 1px solid #352011;padding: 0;}
+.uk-offcanvas-bar .uk-close{color: #f8b700;}
+.uk-offcanvas-bar .uk-close:focus,.uk-offcanvas-bar .uk-close:hover {color: #fff;}
+.uk-offcanvas-bar .uk-nav-default{font-size: 1rem;}
+.uk-offcanvas-bar .uk-parent a.wow-offcanvas-button{background-color: #dea400;color: #fff !important;box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25);}
+.uk-offcanvas-bar .uk-parent a:hover.wow-offcanvas-button,.uk-offcanvas-bar .uk-parent a:focus.blizzcms-offcanvas-button{background-color: #dea400;color: #fff !important;}
+.uk-nav-parent-icon > .uk-parent > a::after{height: 2.5em;}
+.uk-offcanvas-bar .uk-nav-default > li > a{border-bottom: 1px solid rgba(255, 255, 255, .1);line-height: 2.5em;padding: 0 12px;color: #bdbdbd;transition: all ease .3s}
+.uk-offcanvas-bar .uk-nav-default > li > a:hover{background-color: rgba(255, 255, 255, .1);color: #fff;}
+.uk-offcanvas-bar .uk-nav-sub{padding: 0;}
+.uk-offcanvas-bar .uk-nav-default .uk-nav-sub a{border-bottom: 1px solid rgba(255, 255, 255, .1);line-height: 2.5em;padding: 0 24px;color: #bdbdbd;transition: all ease .3s}
+.uk-offcanvas-bar .uk-nav-default .uk-nav-sub a:hover{background-color: rgba(255, 255, 255, .1);color: #fff;}
+.wow-chat-padding{padding: 25px 15px;}
+
+.wow-shadow-container{background-color: #000;box-shadow: 0 0 50px rgba(11,6,4,.8), 0 0 100px rgba(11,6,4,.6), 0 0 500px rgba(11,6,4,.3), 0 10px 1px #000}
+.wow-video-property{z-index: 1;}
+.wow-img-property .uk-cover{z-index: -1;}
+.wow-container-title{font-size: 3rem;text-shadow: 0 0 1px transparent,0 0 5px rgba(0,0,0,.8);}
+.wow-container-text{color: #ebdec2;font-size: 1.3rem;text-shadow: 0 0 1px transparent,0 1px 2px rgba(0,0,0,.8);}
+.wow-color-title{color: #f8b700;text-shadow: 0 0 1px transparent, 0 0 5px rgba(0,0,0,.8);}
+.wow-color-text{color: #ebdec2;text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);text-transform: uppercase;}
+.wow-social-title{color: #ebdec2;text-shadow: 0 0 1px transparent, 0 1px 2px rgba(0,0,0,.8);text-transform: uppercase;font-size: 1rem;}
+.wow-card-title{color: #fff;text-shadow: 0 0 1px transparent, 0 0 5px rgba(0,0,0,.8);}
+.uk-button-default {background: rgba(159, 22, 0, .6);border: 1px solid #ea3012;color: #f7b10a;box-shadow: 0 1px 5px #000;transition: all ease .4s;}
+.uk-button-default:focus,.uk-button-default:hover {background: #b06601;color: #fff;border-color: #c77e19;}
+.uk-button-default.uk-active,.uk-button-default:active {background: #8a5000;color: #fff;border-color: #c77e19;}
+.uk-button-primary {background: rgba(159, 22, 0, .6);border: 1px solid #ea3012;color: #f7b10a;box-shadow: 0 1px 5px #000;transition: all ease .4s;}
+.uk-button-primary:focus,.uk-button-primary:hover {background: #9f1600;color: #fff;border-color: #ea3012;}
+.uk-button-primary.uk-active,.uk-button-primary:active {background: #7a1100;color: #fff;border-color: #ea3012;}
+.uk-button-danger {background: #cb1414;border: 1px solid #a80000;color: #fff;transition: all ease .4s;}
+.uk-button-danger:focus,.uk-button-danger:hover {background: #a80000;color: #fff;border-color: #cb1414;}
+.uk-button-danger.uk-active,.uk-button-danger:active {background: #a80000;color: #fff;border-color: #cb1414;}
+.uk-button-large{font-size: 1.1rem;}
+
+.wow-home-slider .uk-slider-items .uk-card-default{border: 1px solid #504137;color: #fff;}
+.wow-home-slider .uk-slider-items .uk-card-default.uk-card-hover:hover{background-color: transparent;border-color: #f8b700;}
+.wow-home-slider .uk-slider-items .uk-card-body{padding: 40px 10px 5px 10px;}
+.wow-home-slider .uk-slider-items .wow-card-link, .uk-card-default.uk-card-hover:hover .wow-card-link{cursor: pointer;top: 0;right: 0;bottom: 0;left: 0;position: absolute;}
+.wow-card-container{padding-top: 5px;padding-bottom: 5px;}
+@media screen and (min-width: 960px){.wow-card-container{padding-top: 5px;padding-bottom: 5px;}}
+.wow-card-margin{margin-bottom: 5px !important;margin-top: 5px !important;}
+.wow-card-left{margin-left: 0 !important;}
+@media screen and (min-width: 960px){.wow-card-left{margin-left: 2.5px !important;}}
+.wow-card-right{margin-right: 0 !important;}
+@media screen and (min-width: 960px){.wow-card-right{margin-right: 2.5px !important;}}
+.wow-card-races{background-image: url(../images/card-background-1.jpg);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-services{background-image: url(../images/status.png);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-forum{background-image: url(../images/card-background-5.jpg);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-faq{background-image: url(../images/card-background-10.jpg);background-position: 50% 50%;background-repeat: repeat;background-color: #000;max-height: 0px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-pvp{background-image: url(../images/card-background-7.jpg);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-alliance{background-image: url(../images/feature.png);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-recruit{background-image: url(../images/recruit.jpg);background-position: 50% 50%;background-repeat: no-repeat;background-color: #000;max-height: 550px;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-card-background{background: #211510;border: 1px solid #504137;}
+.wow-card-background .uk-card-body{padding: 20px 20px;border-top: 1px solid #504137;color: #ebdec2;}
+.uk-card-default.uk-card-hover:hover{background-color: transparent;border-color: #f8b700;}
+.wow-container-default{background-color: #040f1a;background-image: url(../images/default-background.jpg);background-position: top;background-repeat: repeat;background-size: 100%;border: 1px solid rgba(255, 255, 255, .08);}
+.wow-footer-container{padding-top: 0;}
+@media screen and (min-width: 960px){.wow-footer-container{padding-top: 0;}}
+.wow-footer-background{background-color: #211510;background-image: url(../images/footer-background.jpg);background-position: top;background-repeat: repeat;}
+.wow-footer-social{background-color: #211510;background-image: url(../images/footer-background-light.jpg);background-position: top;background-size: 100%;border: 1px solid rgba(255, 255, 255, .08);}
+.uk-icon-button{background: transparent;color: #f8b700;text-decoration: none;}
+.uk-icon-button:focus,.uk-icon-button:hover {background-color: transparent;color: #fff;text-decoration: none;}
+.uk-active>.uk-icon-button,.uk-icon-button:active {background-color: transparent;color: #fff;text-decoration: none;}
+
+.uk-table th{color: #f8b700;text-shadow: 1px 1px 0 #000, 1px 1px 0 #000;font-family: "Futura Demi","Open Sans",Arial,Helvetica,sans-serif;font-size: 1rem;}
+.uk-table-divider > :first-child > tr:not(:first-child), .uk-table-divider > :not(:first-child) > tr, .uk-table-divider > tr:not(:first-child) {border-top: 1px solid rgba(255,255,255,.1);background: rgba(255,255,255,.02);}
+.uk-table-hover tbody tr:hover,.uk-table-hover > tr:hover {background: rgba(255, 255, 255, .06);}
+.wow-card-store{background: rgba(0, 0, 0, .5);box-shadow: inset 0 4px 8px rgba(0, 0, 0, .6);padding: 5px 10px;color: #fff;border: 1px solid rgba(255, 255, 255, .2)}
+
+.uk-text-large{font-size: 1.25rem;}
+.wow-icon-border{border: 2px solid rgba(255, 255, 255, .2);}
+.wow-card-default{background: #20252a;border: 1px solid rgba(255, 255, 255, .2);color: rgba(255, 255, 255, .8);}
+.wow-card-default .uk-card-body{padding: 20px 20px;border-top: 1px solid rgba(255, 255, 255, .2);}
+.wow-card-default.uk-card-hover:hover{background-color: #20252a;border-color: #f8b700;}
+.uk-tab > * > a{color: rgba(255, 255, 255, .7);}
+.uk-tab > .uk-active > a{border-color: #f8b700;color: #fff;}
+.uk-tab > * > a:focus,.uk-tab > * > a:hover {color: #fff;}
+.uk-tab > .uk-disabled > a {color: rgba(255, 255, 255, .7);}
+.uk-accordion-title {color: #fff;background-color: rgba(255, 255, 255, .15);padding: 10px;border: 1px solid rgba(255, 255, 255, .25);}
+.uk-accordion-title:focus, .uk-accordion-title:hover {color: #f8b700;}
+.wow-card-download{background: #211510;border: 1px solid #504137;}
+.wow-card-download .uk-card-body{padding: 20px 20px;color: #ebdec2;}
+.wow-card-download.uk-card-hover:hover{background-color: #211510;border-color: #f8b700;}
+
+.uk-modal-dialog{background: #170e09;border: 1px solid #2a1906;}
+.uk-modal-title{color: #fff;}
+.uk-modal-dialog hr{border-top-color: rgba(255, 255, 255, .2);}
+.uk-alert-warning{background: none;border: 1px solid #faa05a;box-shadow: inset 0 8px 20px rgba(0, 0, 0, .4);}
+.uk-alert-success{background: none;border: 1px solid #32d296;box-shadow: inset 0 8px 20px rgba(0, 0, 0, .4);}
+.uk-alert-danger{background: none;border: 1px solid #f0506e;box-shadow: inset 0 8px 20px rgba(0, 0, 0, .4);}
+.uk-label{background: transparent;color: #1e87f0;border: 1px solid #1e87f0;}
+.uk-label-success{background: transparent;color: #32d296;border: 1px solid #32d296;}
+.uk-label-warning{background: transparent;color: #faa05a;border: 1px solid #faa05a;}
+.uk-label-danger{background: transparent;color: #f0506e;border: 1px solid #f0506e;}
+.wow-label{background: #bd9112;color: #fff;border: none;}
+.uk-badge{background: #bd9112;color: #fff;}
+a.wow-link {color: #f8b700;}
+a:hover.wow-link {color: #fff;}
+a.wow-link.uk-link-reset {color: #f8b700 !important;}
+
+.wow-color-divider{border-color: rgba(255, 255, 255, .25);}
+.default .Author-avatar{background-image: none;border: 2px solid rgba(255, 255, 255, .3);width: 70px;height: 70px;}
+.default .Author-staff .Author-avatar{border: 2px solid #00b4ff;border-radius:3px;box-shadow: none;border-radius: 0;}
+.default .Author-staff .Author-avatar img {margin: 0;}
+.default .Author-staff .Author-job{color:#00b4ff;font-size:.8125rem;margin-top:.25rem}
+.default .uk-logo {font-family:'Lobster';font-size:30px;color: #ffffff !important;}
+
+.default .uk-card-donate{background: linear-gradient(to right, #005c97, #363795);border-radius: 5px;color:#fff;box-shadow: 0 10px 15px rgba(0,0,0,.1);}
+.default .uk-card-donate .fab{color:#fff;font-size: 60px;width: 100px;height: 100px;border-radius: 50%;text-align: center;line-height: 100px;-webkit-box-shadow: 0 10px 10px rgba(0,0,0,.1);box-shadow: 0 10px 10px rgba(0,0,0,.1);}
+.default .uk-card-donate .uk-card-title{color:#fff}
+.default .uk-card-donate.uk-card-hover:hover{background-color: linear-gradient(to right, #005c97, #363795);box-shadow:0 14px 25px rgba(0,0,0,.16);}
+.default .uk-card-donate .uk-input{border-radius: 10px;}
+.default .uk-card-donate .uk-button-secondary {border-radius: 5px;}
+
+@media screen and (min-width:320px) {
+  .ForumTopic-author {display: none;}
+  .ForumTopic-timestamp {display: none;}
+  .TopicPost-bodyContent{max-width: 19rem;}
+}
+@media screen and (min-width:321px) {
+  .ForumTopic-author {display: none;}
+  .ForumTopic-timestamp {display: none;}
+  .TopicPost-bodyContent{max-width: 21rem;}
+}
+@media screen and (min-width:481px) {
+  .ForumTopic-author {display: flex;}
+  .ForumTopic-timestamp {display: flex;}
+  .ForumTopic-timestamp {display: none;}
+  .ForumCard-heading{overflow-wrap: break-word;word-wrap: break-word;}
+  .ForumCard-description{overflow-wrap: break-word;word-wrap: break-word;}
+}
+@media screen and (min-width:641px)  {
+  .ForumTopic-author {display: flex;}
+  .ForumTopic-timestamp {display: flex;}
+  .TopicPost-bodyContent{max-width: 52rem;}
+  .ForumCard-heading{overflow-wrap: break-word;word-wrap: break-word;}
+  .ForumCard-description{overflow-wrap: break-word;word-wrap: break-word;}
+}
+@media screen and (min-width:961px)  {
+  .ForumTopic-author {display: flex;}
+  .ForumTopic-timestamp {display: flex;}
+  .TopicPost-bodyContent{max-width: 52rem;}
+  .ForumCard-heading{overflow-wrap: break-word;word-wrap: break-word;}
+  .ForumCard-description{overflow-wrap: break-word;word-wrap: break-word;}
+}
+@media screen and (min-width:1025px) {
+  .ForumTopic-author {display: flex;}
+  .ForumTopic-timestamp {display: flex;}
+  .TopicPost-bodyContent{max-width: 52rem;}
+  .ForumCard-heading{overflow-wrap: break-word;word-wrap: break-word;}
+  .ForumCard-description{overflow-wrap: break-word;word-wrap: break-word;}
+}
+@media screen and (min-width:1281px) {
+  .ForumTopic-author {display: flex;}
+  .ForumTopic-timestamp {display: flex;}
+  .TopicPost-bodyContent{max-width: 52rem;}
+  .ForumCard-heading{overflow-wrap: break-word;word-wrap: break-word;}
+  .ForumCard-description{overflow-wrap: break-word;word-wrap: break-word;}
+}
+
+/* Copy Path */
+
+-webkit-clip-path: polygon(33% 69%, 63% 68%, 99% 59%, 100% 87%, 80% 100%, 20% 100%, 0 87%, 0 63%);
+clip-path: polygon(33% 69%, 63% 68%, 99% 59%, 100% 87%, 80% 100%, 20% 100%, 0 87%, 0 63%);

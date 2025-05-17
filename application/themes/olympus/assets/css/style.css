@@ -1,0 +1,12 @@
+footer {
+    position: relative;
+    height: 220px;
+    margin-top: auto;
+    border-top: 1px solid #2d2532;
+    background:;
+    padding: 9px 0;
+	background: #100d0c;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
